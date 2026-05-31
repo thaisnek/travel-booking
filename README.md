@@ -11,9 +11,3 @@ Thanh toán PayPal sandbox, xử lý callback thành công/hủy và ghi nhận 
 Người dùng quản lý hồ sơ, đổi mật khẩu, đổi avatar, xem lịch sử tour và đánh giá tour.
 Admin quản lý tour, upload ảnh tour, booking, review, promotion, user, contact và dashboard thống kê.
 Gửi liên hệ và admin phản hồi qua email SMTP.
-Tech stack
-Phần	Công nghệ
-Frontend	React 19, React Router, Axios, Bootstrap, React Bootstrap, React Icons, CRA
-Backend	Java 17, Spring Boot 3.4.4, Spring Web, Spring Security, OAuth2 Resource Server, Spring Data JPA, MySQL, MapStruct, Lombok
-Thanh toán/Email	PayPal REST SDK, Spring Mail
-Recommendation service
