@@ -1,0 +1,43 @@
+server:
+  servlet:
+    context-path: /ltweb
+
+paypal:
+  client:
+    id: test-paypal-client
+    secret: test-paypal-secret
+  mode: sandbox
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:travelweb;MODE=MySQL;DB_CLOSE_DELAY=-1;DATABASE_TO_UPPER=false
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    open-in-view: false
+  mail:
+    host: localhost
+    port: 2525
+    username: test
+    password: test
+
+avatar:
+  upload:
+    dir: C:/tmp/travelweb-test/avatar
+
+tour:
+  upload:
+    dir: C:/tmp/travelweb-test/tour
+
+app:
+  frontend-url: http://localhost:3000
+  backend-url: http://localhost:8080/ltweb
+  flask-api-url: http://127.0.0.1:5555
+
+jwt:
+  secret: test-secret-key-for-hs512-that-is-long-enough-for-jwt-signing-1234567890
+  expiration-ms: 86400000

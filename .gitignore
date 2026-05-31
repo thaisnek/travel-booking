@@ -1,0 +1,22 @@
+# Backend build
+BE/target/
+**/target/
+
+# Frontend dependencies/build
+FE/node_modules/
+FE/build/
+**/node_modules/
+**/build/
+
+# env/secrets
+.env
+*.env
+**/.env
+application-local.yml
+application-local.yaml
+
+# IDE/OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
